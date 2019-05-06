@@ -1,2 +1,13 @@
 # abc2
 funkcje rek.
+
+
+def pobierz_dane(liczba_cyfr):
+    lista = []
+    for i in range(liczba_cyfr):
+        lista.append(int(input("Podaj liczbę: ")))
+    return lista
+
+liczba_cyfr = int(input("Ile chcesz liczb: "))
+wynik = pobierz_dane(liczba_cyfr)
+print(wynik)
